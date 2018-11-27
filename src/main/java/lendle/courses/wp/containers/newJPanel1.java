@@ -7,10 +7,9 @@ package lendle.courses.wp.containers;
 
 /**
  *
- * @author user
+ * @author peiyi
  */
-class newJPanel1 {
-
+public class newJPanel1 {
     static String getEmail() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }

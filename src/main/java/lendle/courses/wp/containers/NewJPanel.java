@@ -1,5 +1,9 @@
 package lendle.courses.wp.containers;
 
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import javax.swing.JPanel;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -17,6 +21,16 @@ public class NewJPanel extends javax.swing.JPanel {
      */
     public NewJPanel() {
         initComponents();
+        JPanel JPanel = null;
+        JPanel panel=(JPanel);
+        panel.setVisible(true);
+        panel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed (MouseEvent e){
+                e.consume();
+            }
+        });
+    
     }
 
     /**
